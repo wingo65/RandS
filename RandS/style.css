@@ -25,6 +25,10 @@
     color: white; 
     text-decoration: none;
 }
+
+.navbar-nav {
+  z-index: 1050;
+}
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:focus {
   color: #007bff !important; 
