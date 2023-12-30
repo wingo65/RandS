@@ -10,6 +10,7 @@
     padding: 10px; /* Example padding */
     text-align: right; /* Centering the content */
     text-decoration: none;
+    font-size: 13px;
 }
 
 .top-navbar a {
