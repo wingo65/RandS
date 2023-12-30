@@ -45,6 +45,12 @@
   #navbarNav {
     justify-content: center; /* This will center the nav items within the navbar */
 }
-
+.fixed-image img {
+    width: 100vw; /* 100% of the viewport width */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* remove any default margins */
+    margin-left: auto;
+    margin-right: auto;
+}
 
   
