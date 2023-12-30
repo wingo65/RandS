@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+
 
 .top-navbar .contact-list i {
     margin-right: 5px; /* Space between icon and text */
@@ -45,12 +47,59 @@
   #navbarNav {
     justify-content: center; /* This will center the nav items within the navbar */
 }
-.fixed-image img {
-    width: 100vw; /* 100% of the viewport width */
-    height: auto; /* maintain aspect ratio */
-    display: block; /* remove any default margins */
-    margin-left: auto;
-    margin-right: auto;
+.card-img-top {
+    width: 100%; /* Makes the image take up the full width of the card */
+    height: auto; /* Maintains aspect ratio */
+    border-top-left-radius: calc(0.375rem - 1px);
+    border-top-right-radius: calc(0.375rem - 1px);
+  }
+  .card {
+    position: relative;
+    width: 100%;
+  }
+  
+  .card-img-top {
+    width: 100%; /* Makes the image take up the full width of the card */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
+  .card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Aligns the text container to center and button to bottom */
+    align-items: center;
+    padding: 1.25rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .text-container {
+    text-align: center; /* Centers the text within the container */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* This will center the title and text vertically */
+    align-items: center;
+  }
+  
+  .card-title {
+    font-size: 8rem; 
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); 
+    font-family: Overlock;
+    font-style: italic;
 }
+.card-text {
+    font-size: 3rem; 
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: OverLock;
+    font-style: italic; 
+    
+}
+ 
 
   
