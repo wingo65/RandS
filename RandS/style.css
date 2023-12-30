@@ -8,12 +8,21 @@
 }
 
 .top-navbar {
+  position: sticky;
+    top: 0; /* This will stick it to the top of the viewport */
+    z-index: 1000;
     background-color: #000000; /* Example background color */
     padding: 10px; /* Example padding */
     text-align: right; /* Centering the content */
     text-decoration: none;
     font-size: 13px;
-    z-index: 1000;
+}
+
+.navbar{
+  position: sticky;
+  top: 1px; /* Replace with the height of the top navbar */
+  z-index: 999; /* Just below the top navbar */
+  /* Other styling remains the same */
 }
 
 .top-navbar a {
