@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.top-navbar .contact-list i {
+    margin-right: 5px; /* Space between icon and text */
+    color: white; /* Icon color */
+}
+
+.top-navbar {
+    background-color: #000000; /* Example background color */
+    padding: 10px; /* Example padding */
+    text-align: right; /* Centering the content */
+    text-decoration: none;
+}
+
+.top-navbar a {
+    margin: 0 10px; /* Spacing out the links */
+    text-decoration: none; 
+    color: white; 
+    text-decoration: none;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus {
+  color: #007bff !important; 
+  background-color: transparent;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0056b3 !important; 
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus {
+    color: inherit !important; 
+    background-color: transparent;
+  }
+}
+.nav-link {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px !important;
+}
+  #navbarNav {
+    justify-content: center; /* This will center the nav items within the navbar */
+}
+
+
+  
