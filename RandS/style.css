@@ -201,6 +201,17 @@
   width: 130px;
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .bn59 {
+    margin-bottom: 20px;
+  }
+
+
+  .footer {
+    padding-top: 20px; 
+  }
+}
  
 .footer{
   background-color: #000000;
