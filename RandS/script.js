@@ -14,3 +14,15 @@ $(document).ready(function(){
     });
   });
 
+  document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fadeInUp');
+            }
+        });
+    });
+
+    const target = document.querySelector('.container-fluid2');
+    observer.observe(target);
+});
