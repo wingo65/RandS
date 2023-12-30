@@ -124,10 +124,10 @@
 @media (max-width: 768px) {
   .content {
     font-size: 16px; /* Smaller font size for better readability */
-    width: 90%; /* Increase relative width for smaller screens */
+    width: 100%; /* Increase relative width for smaller screens */
     padding: 20px; /* Reduce padding to give more space for the text */
     line-height: 1.5; /* Adjust line height for better readability */
-    word-wrap: break-word; /* Ensures long words don't overflow */
+    word-wrap: break-word; 
   }
 }
  
