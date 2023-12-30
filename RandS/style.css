@@ -151,6 +151,25 @@
   animation-duration: 1s;
   animation-fill-mode: both;
 }
+
+.container-fluid3 {
+  background-color: white;
+  display: flex; /* Keeps the container as a flexbox */
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Vertically centers the content */
+  flex-wrap: wrap; /* Horizontal alignment */
+}
+
+.container-fluid3 img {
+  flex: 1; 
+  max-width: 40%; 
+  width: auto; 
+  height: 600px;
+  flex-shrink: 0;  
+  opacity: 0; 
+  transition: opacity 1s ease-out; 
+  padding: 20px;
+}
  
 .footer{
   background-color: #000000;
