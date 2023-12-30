@@ -13,6 +13,7 @@
     text-align: right; /* Centering the content */
     text-decoration: none;
     font-size: 13px;
+    z-index: 1000;
 }
 
 .top-navbar a {
@@ -99,12 +100,25 @@
   justify-content: center;
   width: 100%; 
   max-width: 100%;
-  padding: 50px;
+  padding: 45px;
 }
 
 .title2{
   text-align: center;
+  font-size: 30px;
+  font-family: Overlock;
+  font-style: bold;
+  padding: 20px;
 }
+
+.content{
+  text-align: center;
+  width: 80%; /* Adjusted width */
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center the container */
+  padding: 50px;
+}
+
  
 .footer{
   background-color: #000000;
