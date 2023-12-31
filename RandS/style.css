@@ -167,6 +167,9 @@
   font-style: bold;
   font-family: Asul;
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bn59 {
@@ -208,3 +211,14 @@
 
 }
   
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-input {
+  display: block;
+}
+
+.form-error {
+  color: red;
+}
