@@ -51,7 +51,7 @@
     position: relative;
     overflow: hidden; 
     background: transparent;
-    height: 100vh; 
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,7 +88,6 @@
   justify-content: center;
   width: 100%; 
   max-width: 100%;
-  padding: 20px;
 }
 
 .title2{
