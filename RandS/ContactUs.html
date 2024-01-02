@@ -10,7 +10,8 @@
 </head>
 <body>
     <main>
-      <nav class="top-navbar">
+      <div class="sticky-top">
+        <nav class="top-navbar sticky-top">
         <ul class="contact-list d-flex justify-content-end list-unstyled mb-0">
             <li class="me-3">
                 <i class="fas fa-phone-alt"></i>
@@ -21,40 +22,42 @@
                 <a href="https://www.google.com/maps/place/R+%26+S+Autobody+%26+Repair+Inc/@41.7635958,-71.4078203,17z/data=!4m6!3m5!1s0x89e44eff830f4ca3:0xcdac19fea9a90c57!8m2!3d41.7635507!4d-71.4052878!16s%2Fg%2F1tgf8t55?entry=ttu" target="_blank">R and S Autobody & Repair Inc</a>
             </li>
         </ul>
-    </nav>
-        
-   
-    </nav>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">              
-          <a class="navbar-brand">R and S</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="home.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="autorepair.html">Auto Repair</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="autobody.html">Auto Body</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="OurWork.html">Our Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ContactUs.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">              
+                  <a class="navbar-brand">R and S</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="home.html" target="_self">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="autorepair.html" target="_self">Auto Repair</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="autobody.html">Auto Body</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Services.html">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="OurWork.html">Our Work</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="ContactUs.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+      </div>
+      <div class="Contact">
+        Contact Us
+      </div>
 
       <form id="contact-form" method="POST" action="sendmail.php">
         <div class="form-row form-error" style="display:none;"></div>

@@ -2,25 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
 
-
+/* Beginning of navs */
 .top-navbar .contact-list i {
-    margin-right: 5px; /* Space between icon and text */
-    color: white; /* Icon color */
+    margin-right: 5px;
+    color: white; 
 }
 
 .top-navbar {
-  position: sticky;
-    top: 0; /* This will stick it to the top of the viewport */
-    z-index: 1000;
-    background-color: #000000; /* Example background color */
-    padding: 10px; /* Example padding */
-    text-align: right; /* Centering the content */
-    text-decoration: none;
-    font-size: 13px;
+  top: 0; 
+  background-color: #000000; 
+  padding: 10px; 
+  text-align: right; 
+  text-decoration: none;
+  font-size: 13px;
 }
 
 .top-navbar a {
-    margin: 0 10px; /* Spacing out the links */
+    margin: 0 10px; 
     text-decoration: none; 
     color: white; 
     text-decoration: none;
@@ -34,7 +32,9 @@
     font-size: 25px;
     justify-content: center; 
 } 
-  
+/* End of navs */
+
+/* Beginning of home page */
   .fixed-background {
     position: fixed;
     top: 0;
@@ -201,7 +201,9 @@
     padding-top: 20px; 
   }
 }
- 
+/* End of homepage */ 
+
+/* Beginning of footer*/
 .footer{
   background-color: #000000;
   padding: 50px;
@@ -212,15 +214,35 @@
   color: white;
 
 }
-  
+/* End of footer*/
+
+
+/* Beginning of Contact us form*/
 .form-row {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .form-input {
   display: block;
 }
 
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .form-error {
   color: red;
 }
+
+.Contact{
+  padding: 20px;
+  font-size: 45px;
+  font-family: 'Bebas Neue';
+  font-style: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*End of Contact us form*/
