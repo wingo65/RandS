@@ -44,6 +44,7 @@
     background-image: url('images/rs sign.JPG');
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
     z-index: -1;
 }
 
@@ -104,9 +105,9 @@
 .content{
   font-family: Asul;
   text-align: center;
-  width: 80%; /* Adjusted width */
-  max-width: 800px; /* Maximum width */
-  margin: 0 auto; /* Center the container */
+  width: 80%; 
+  max-width: 800px; 
+  margin: 0 auto; 
   padding: 50px;
 }
 
@@ -139,10 +140,10 @@
 
 .container-fluid3 {
   background-color: white;
-  display: flex; /* Keeps the container as a flexbox */
-  justify-content: center; /* Horizontally centers the content */
-  align-items: center; /* Vertically centers the content */
-  flex-wrap: wrap; /* Horizontal alignment */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
 }
 
 .container-fluid3 img {
@@ -158,9 +159,9 @@
 
 @media (max-width: 768px) {
   .container-fluid3 img {
-    max-width: 80%; /* Larger max-width for smaller screens */
-    height: auto; /* Auto height for aspect ratio */
-    padding: 10px; /* Adjust padding for smaller screens */
+    max-width: 80%; 
+    height: auto; 
+    padding: 10px; 
   }
 }
 
