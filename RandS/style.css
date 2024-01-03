@@ -44,7 +44,6 @@
     background-image: url('images/rs sign.JPG');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     z-index: -1;
 }
 
