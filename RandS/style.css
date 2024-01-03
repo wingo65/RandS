@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
 
+body{
+  background-color: #000000;
+}
 /* Beginning of navs */
 .top-navbar .contact-list i {
     margin-right: 5px;
@@ -44,7 +47,6 @@
     background-image: url('images/rs sign.JPG');
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
     z-index: -1;
 }
 
