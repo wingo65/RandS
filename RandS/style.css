@@ -207,17 +207,12 @@
 .footer{
   background-color: #000000;
   padding: 50px;
+  min-height: 200px;
   font-size: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-}
-
-@media (max-width: 768px) {
-  .fixed-background {
-      background-attachment: scroll;
-  }
 }
 
 /* End of footer*/
