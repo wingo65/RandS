@@ -220,6 +220,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .fixed-background {
+      background-attachment: scroll;
+  }
+}
+
 /* End of footer*/
 
 
