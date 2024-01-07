@@ -1,14 +1,16 @@
-  document.addEventListener('DOMContentLoaded', () => {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('fadeInUp');
-            }
-        });
-    });
+document.addEventListener('DOMContentLoaded', () => {
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              entry.target.querySelectorAll('.content, .title2').forEach(element => {
+                  element.classList.add('fadeInUp');
+              });
+          }
+      });
+  });
 
-    const target = document.querySelector('.container-fluid2');
-    observer.observe(target);
+  const target = document.querySelector('.container-fluid2');
+  observer.observe(target);
 });
 
 window.addEventListener('scroll', function() {
